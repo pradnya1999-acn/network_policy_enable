@@ -13,8 +13,8 @@ resource "google_container_cluster" "primary" {
   location = "us-central1"
 
 
-    network_policy {
-    enabled  = true
-    provider = "CALICO"
-  }
+   # network_policy {
+   # enabled  = true
+   # provider = "CALICO"
+ # }
 }
